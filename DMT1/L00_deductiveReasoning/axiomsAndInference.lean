@@ -75,7 +75,7 @@ assume that we have proofs (proof objects), p, q, and r, proving
 P, Q, and R, respectively. Here's how we now say that *formally*.
 @@@ -/
 
-axiom p : P
+axiom p : P -- assume little p is a proof of proposition big P
 axiom q : Q
 axiom r : R
 

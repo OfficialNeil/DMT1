@@ -250,7 +250,7 @@ theorem andAssoc : P ∧ Q ∧ R ↔ (P ∧ Q) ∧ R :=
   (
     fun
     (h : (P ∧ Q) ∧ R) =>
-      (
+    (
         let p := h.left.left
         let q := h.left.right
         let r := h.right
