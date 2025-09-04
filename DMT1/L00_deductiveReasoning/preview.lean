@@ -39,6 +39,10 @@ and proof objects, not ordinary data values such as strings
 and Booleans. Here's an example.
 @@@ -/
 
+def foo : Prop := (1+1=2) → (2+2=4)
+
+
+
 def fiveIsTwoPlusThree : Prop := 5 = 2 + 3   -- a proposition
 def p : fiveIsTwoPlusThree := rfl            -- a proof of it
 
